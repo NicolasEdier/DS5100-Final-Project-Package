@@ -1,13 +1,25 @@
 # DS5100-Final-Project-Package
-Package repo for Nicolas Edier's final project of DS5100
+This repo contains the "Final" package, which is a Die game Monte Carlo Simulation program. Using this package, you can create a specified Die, run a variation of games on it, then analyze the results. Thanks for checking it out!
 
 ## Metadata
 - **Author:** Nicolas Edier
+- **Project:** Monte Carlo Simulation
 - **License:** MIT
 - **Version:** 1.0.0
 - **Description:** This project simulates a dice game involving one or more dice. The game can be played by rolling dice, and the results can be analyzed in various ways, including counting jackpots, face combinations, and permutations.
 
 ## Synopsis
+
+### Importing
+- To import, begin by cloning this repo in your preferred terminal of choice
+- Then pip install within the repo
+```bash
+pip install .
+```
+- Navigate to python, import the package "Final", and you are ready to go
+```python
+import Final
+```
 
 ### Die Class
 To create a die object, you pass an array of faces (distinct values) to the constructor:
