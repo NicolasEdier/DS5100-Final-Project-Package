@@ -1,17 +1,11 @@
-test_analyzer_initializer_valid (__main__.TestAnalyzer) ... ok
-test_combo_counts (__main__.TestAnalyzer) ... ok
-test_face_counts_per_roll (__main__.TestAnalyzer) ... ok
-test_jackpot (__main__.TestAnalyzer) ... ok
-test_permutation_counts (__main__.TestAnalyzer) ... ok
-test_change_weight (__main__.TestDie) ... ok
-test_die_initializer_valid (__main__.TestDie) ... ok
-test_roll (__main__.TestDie) ... ok
-test_show (__main__.TestDie) ... ok
-test_game_initializer_valid (__main__.TestGame) ... ok
-test_play (__main__.TestGame) ... ok
-test_show (__main__.TestGame) ... ok
+/sfs/gpfs/tardis/home/nnu7hu/ (unittest.loader._FailedTest./sfs/gpfs/tardis/home/nnu7hu/) ... ERROR
+
+======================================================================
+ERROR: /sfs/gpfs/tardis/home/nnu7hu/ (unittest.loader._FailedTest./sfs/gpfs/tardis/home/nnu7hu/)
+----------------------------------------------------------------------
+AttributeError: module '__main__' has no attribute '/sfs/gpfs/tardis/home/nnu7hu/'
 
 ----------------------------------------------------------------------
-Ran 12 tests in 0.065s
+Ran 1 test in 0.000s
 
-OK
+FAILED (errors=1)
