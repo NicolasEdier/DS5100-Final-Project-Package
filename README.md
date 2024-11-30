@@ -8,7 +8,7 @@ This repo contains the "Final" package, which is a Die game Monte Carlo Simulati
 - **Version:** 1.0.0
 - **Description:** This project simulates a dice game involving one or more dice. The game can be played by rolling dice, and the results can be analyzed in various ways, including counting jackpots, face combinations, and permutations.
 
-## Synopsis
+## Installation
 
 ### Importing
 - To import, begin by cloning this repo in your preferred terminal of choice
@@ -20,6 +20,8 @@ pip install .
 ```python
 import Final
 ```
+
+## Synopsis
 
 ### Die Class
 To create a die object, you pass an array of faces (distinct values) to the constructor:
