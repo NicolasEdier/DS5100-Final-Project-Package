@@ -42,10 +42,9 @@ analyzer.combo_counts() # Get the count of distint combinations of faces rolled
 analyzer.permutation_counts() # Get the count of distinct permutations of faces rolled
 ```
 
-### API
-Classes
+## API
 
-Die
+### Die
 The Die class simulates a die with customizable faces and weights.
 
 Methods:
@@ -55,7 +54,7 @@ Methods:
 - show(): Returns the current state of the die as a DataFrame.
 
 
-Game
+### Game
 The Game class simulates a game involving one or more dice.
 
 Methods:
@@ -64,7 +63,7 @@ Methods:
 - show(form="wide"): Shows the results of the most recent play. Accepts 'wide' or 'narrow' formats. Raises ValueError if the form is invalid.
 
 
-Analyzer
+### Analyzer
 The Analyzer class analyzes the results of a game.
 
 Methods:
