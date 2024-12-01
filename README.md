@@ -1,5 +1,5 @@
 # DS5100-Final-Project-Package
-This repo contains the "Final" package, which is a Die game Monte Carlo Simulation program. Using this package, you can create a specified Die, run a variation of games on it, then analyze the results. Thanks for checking it out!
+This repo contains the "MCProgram" package, which is a Die game Monte Carlo Simulation program. Using this package, you can create a specified Die, run a variation of games on it, then analyze the results. Thanks for checking it out!
 
 ## Metadata
 - **Author:** Nicolas Edier
