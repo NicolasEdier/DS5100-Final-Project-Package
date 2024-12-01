@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
 import pandas as pd
-from Final.Final import Die, Game, Analyzer
+from MCPackage.MCProgram import Die, Game, Analyzer
 
 
 class TestDie(unittest.TestCase):

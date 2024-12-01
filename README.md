@@ -16,9 +16,14 @@ This repo contains the "Final" package, which is a Die game Monte Carlo Simulati
 ```bash
 pip install .
 ```
-- Navigate to python, import the package "Final", and you are ready to go
+- Navigate to python, import the classes and packages need to use this module, then you are good to go!
 ```python
-import Final
+from MCPackage.MCProgram import Die, Game, Analyzer
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from itertools import permutations, combinations
+from collections import Counter
 ```
 
 ## Synopsis
